@@ -1,3 +1,32 @@
+
+class Person {
+    #name;  // private field
+
+    constructor(name) {
+        this.#name = name;  // private property
+    }
+
+    // public method to access the private field
+    getName() {
+        return this.#name;
+    }
+
+    // public method to change the private field
+    setName(newName) {
+        if (newName) {
+            this.#name = newName;
+        }
+    }
+}
+
+const person = new Person('Alice');
+console.log(person.getName()); // Output: Alice
+person.setName('Bob');
+console.log(person.getName()); // Output: Bob
+
+// *******************************************************************************
+// Another example
+
 class BankAccount {
     // Private property to hold the balance
     #balance;
