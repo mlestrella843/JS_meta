@@ -9,6 +9,8 @@
 //     console.log(prop)
 // }
 
+//using Object.keys and Object.values to Iterate the object's properties.
+
 const car2 = {
     speed: 200,
     color: "red"
