@@ -11,14 +11,19 @@ console.log(`The sportCar Object : ${sportsCar}`);
 //-------Iterating over Object----------------
 
 
-console.log("for of is reliable");
+console.log("\nfor of is reliable ");
+    for (prop of Object.keys(car)) {
+        console.log( prop + " 🎯 " + car[prop]);
+}
+
+console.log("\nfor of is reliable ");
     for (prop of Object.keys(sportsCar)) {
         console.log( prop + " 🎯 " + sportsCar[prop]);
 }
 
 
 //**** for in  */
-console.log("for in is reliable");
+console.log("\nfor in is reliable ");
 for( prop in sportsCar){
     console.log(' 🤔 ', prop);
 }
