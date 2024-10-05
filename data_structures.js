@@ -48,3 +48,30 @@ for (const [item, quantity] of storeInventory) {
 console.log(`We are tracking ${storeInventory.size} types of items.`);
 // Output: We are tracking 2 types of items
 console.log("\n");
+
+//****** Set ******/
+
+// Create a new Set
+const mySet = new Set();
+
+// Add values to the Set
+mySet.add(1);
+mySet.add(5);
+mySet.add(1); // Duplicate value, won't be added
+mySet.add('apple');
+
+// Check if a value exists
+console.log(mySet.has(5)); // true
+console.log(mySet.has(10)); // false
+
+// Get the size of the Set
+console.log(mySet.size); // 3 (only unique values)
+
+// Loop through the Set
+for (let value of mySet) {
+  console.log(value); // Output: 1, 5, 'apple'
+}
+
+// Remove a value
+mySet.delete(5);
+console.log(mySet.has(5)); // false
