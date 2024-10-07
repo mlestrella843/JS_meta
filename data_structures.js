@@ -15,6 +15,7 @@ const person = {
   console.log("\n");
 
   //* Use de Map ******///
+  // Map is a data structure used to store key-value pairs.
   // Create a new Map to store items and their quantities
 const storeInventory = new Map();
 
