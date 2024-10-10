@@ -18,3 +18,4 @@ const dataPerson = {
 // Now, these data was converted into JSON format with stringify method
 const jason_parse = JSON.stringify(dataPerson); 
 console.log(jason_parse);
+
