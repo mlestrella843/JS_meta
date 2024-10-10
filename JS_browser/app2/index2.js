@@ -5,3 +5,7 @@ function handleClick(){
 }
 
 target.addEventListener('click', handleClick);
+
+function handleClick2(){
+    console.log('Clicked the heading');
+}
