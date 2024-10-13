@@ -17,7 +17,6 @@ const printNames = (arrayObjects) => {
         console.log(`${person.name} ${person.lastName}`);
     })
 }
-
 printNames(arrayObjects);
 
 console.log("\n");
